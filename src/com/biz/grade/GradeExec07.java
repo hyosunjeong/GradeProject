@@ -107,26 +107,9 @@ public class GradeExec07 {
 					System.out.print(sc.getIntSum() + "\t");
 					System.out.print(sc.getFloatAvg());
 					
-					
 				}
-				
 			}
 			System.out.println();
-			
-			
-			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
-
 }

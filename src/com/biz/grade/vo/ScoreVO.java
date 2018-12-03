@@ -47,6 +47,14 @@ public class ScoreVO {
 	public void setFloatAvg(float floatAvg) {
 		this.floatAvg = floatAvg;
 	}
+	@Override
+	public String toString() {
+		return "ScoreVO [strNum=" + strNum + ", intKor=" + intKor + ", intEng=" + intEng + ", intMath=" + intMath
+				+ ", intSum=" + intSum + ", floatAvg=" + floatAvg + ", getStrNum()=" + getStrNum() + ", getIntKor()="
+				+ getIntKor() + ", getIntEng()=" + getIntEng() + ", getIntMath()=" + getIntMath() + ", getIntSum()="
+				+ getIntSum() + ", getFloatAvg()=" + getFloatAvg() + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 	
 	

@@ -2,6 +2,7 @@ package com.biz.grade.vo;
 
 public class StudentVO {
 	
+	
 	private String strNum;
 	private String strEngName;
 	private String strKorName;
@@ -24,6 +25,13 @@ public class StudentVO {
 	}
 	public void setStrKorName(String strKorName) {
 		this.strKorName = strKorName;
+	}
+	@Override
+	public String toString() {
+		return "StudentVO [strNum=" + strNum + ", strEngName=" + strEngName + ", strKorName=" + strKorName
+				+ ", getStrNum()=" + getStrNum() + ", getStrEngName()=" + getStrEngName() + ", getStrKorName()="
+				+ getStrKorName() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
 	}
 	
 	
